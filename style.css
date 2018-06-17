@@ -1,0 +1,31 @@
+.container{
+    color:black;
+    height:670px;
+    width:40%;
+    background:LightGray;
+    border:2px solid black;
+}
+.text1{
+padding-left:20px;
+padding-top:10px;
+    
+}
+.raw{height:80px;
+
+    width:100%;
+    
+}
+.col1{height:50px;
+
+    width:50%;
+    float:left;
+    padding-top:20px;
+    
+}
+.col2{height:50px;
+
+    width:50%;
+    float:right;
+    
+}
+#button1{align:center;}
