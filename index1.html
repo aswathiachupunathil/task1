@@ -1,5 +1,8 @@
 <html>
     <head>
+    <title>
+    
+    </title>
      <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -15,7 +18,8 @@
                             </div>
                             <div class="col2">
                               
-                                 <input type="text"></input>
+                                 <input type="text" id="name"></input>
+                                 
                               
                             </div>
                 </div>
@@ -100,4 +104,19 @@
        
     </form>
     </body>
+    <script>
+    document.getElementById("name").value= "aswathi";
+   /* console.log(document.getElementById("name").value);*/
+    var btn = document.createElement("button");
+    document.body.appendChild(btn);
+   var text = document.createTextNode("CLICK ME");       
+     btn.appendChild(text);    
+    var h = document.createElement("H2"); 
+    document.body.appendChild(h);// Create a <h1> element
+var t = document.createTextNode("Hello World");  // Create a text node
+h.appendChild(t);    
+console.log(h.appendChild(t));
+console.log(document.createElement("H2"));
+        
+    </script>
 </html>
